@@ -1,4 +1,5 @@
 Chat Application
+
 The current client server application was designed using Java and employs the use of threads and socket connections. It involves the use of 2 classes one for the server and one for the client. 
 Both servers can be ran on the command line and can communicate with one another using. 
 On the clients side, the user can input the port number of their choice, while the hostname however, is hardcoded in as the local host "127.0.0.1" as it is running on the same machine. 
@@ -16,4 +17,7 @@ If the user fails to input a valid port address the connection attempt will time
 and a list of errors will be printed out to the user.
 
 To Run
-In order to run the programme, users must use their command line and change directory (cd) into the location of the application on their device. After which javac [Name of project].java should be inputted into the command line, i.e. javac ClientConnection.java. Followed up by javac [Name of project].java i.e. javac ClientConnection.java. At this point the application has started up and the instructions will be displayed on screen i.e. it will ask for the port number of the users choosing and will also display the port number the server is listening on.
+
+In order to run the programme, users must use their command line and change directory (cd) into the location of the application on their device. After which javac [Name of project].java should be inputted into the command line,
+i.e. javac ClientConnection.java. Followed up by javac [Name of project].java i.e. javac ClientConnection.java. 
+At this point the application has started up and the instructions will be displayed on screen i.e. it will ask for the port number of the users choosing and will also display the port number the server is listening on.
